@@ -1,0 +1,265 @@
+
+
+@font-face {
+  font-family: OpenSans;
+  src: url('./assets/OpenSans.ttf');
+}
+
+#root {
+  /* ·%"!*!! nightmare bad css gotta improve */
+  margin: 0 auto;
+  padding: 2rem;
+  /* font-family: OpenSans, Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: OpenSans, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  display:flex;
+  justify-content: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 18
+}
+
+input[type='number'] {
+  width: 4rem;
+}
+
+input, textarea {
+  font-family: OpenSans, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+
+input[type='email'],
+input[type='text'] {
+  min-width: 15rem;
+  max-width: 33.4vw;
+}
+textarea,
+input {
+  color: rgb(241, 240, 240);
+  appearance: none;
+  border: none;
+  border-radius: 3px;
+  background-color: lightgray;
+  color: darkslategrey;
+  height: 1.6rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  height: 3rem;
+  max-width: 33.4vw;
+  min-width: 33.4vw;
+}
+
+label {
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+button {
+  background-color: transparent;
+  margin: 0 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+form {
+  margin: 0.2rem;
+  /* border: solid 1px rgb(104, 100, 100); */
+  border: 1px solid rgb(180, 177, 177);
+  border-radius: 5px;
+  padding: 0.2rem; 
+}
+
+div.inputFields {
+  max-width: 35vw;
+  min-width: 35vw;
+}
+
+.container, .formmanage {
+  display: flex;
+}
+
+div.container.inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 35vw;
+  min-width: 35vw;
+
+}
+.viz {
+  display: block;
+}
+.hid {
+  display: none;
+}
+.formInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+
+button.employment,
+button.education  {
+  display:flex;
+}
+
+div .label,
+button .label {
+  padding-top: 4px;
+}
+
+div.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.academy,
+div.headline, 
+div.dates {
+  display: flex; 
+ 
+}
+
+div.cv.dates {
+  float: right;
+}
+
+
+div.updown, 
+div.position, 
+div.responsibilities {
+  display: flex; flex-direction: column;
+}
+
+div.buttons {
+  display: flex;
+  justify-content: right;
+}
+
+div.cv.company {
+  margin:1rem 0;
+}
+
+.academy {
+  padding: 0.2rem 0; 
+ 
+}
+div.cv.academy {
+  display: flex;
+  justify-content: space-between;
+}
+div.edu_inst,
+div.edu_study,
+div.edu_graduate {
+  text-align: left;
+}
+.page {
+  max-width: 35vw;
+  min-width: 35vw;
+  /* border: 1px solid rgb(180, 177, 177); */
+}
+.head {
+  background-color: rgb(19, 5, 94);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner {
+  background-color: lightgray;
+  color: rgb(53, 48, 48);
+  margin: 2rem 0rem;
+  padding: 0.5rem 1rem;
+}
+
+
+/* cv */
+.icon_label {
+  display: flex;
+  align-items: center;
+  justify-items:start
+
+}
+.icon_label span {
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.icon_label span.material-symbols-outlined {
+  margin-left: 2rem;
+}
+div.cv.candidate {
+  display: flex;
+  justify-content: center;
+  align-content:flex-start;
+}
+
+div.cv.company { margin: 2rem 0  }
+
+div.education,
+div.employment {
+  padding: 0 1rem 2rem 1rem
+}
+
+div.cv.employ, div.cv.institute {
+  font-weight: 600;
+}
+div.dates {
+  font-weight: 300;
+}
+div.cv.responsibilities,
+div.cv.position {
+  font-weight: 200;
+  padding: 0 2rem
+}
+div.cv.company,
+div.cv.dates,
+div.cv.position,
+div.cv.responsibilities {
+  margin: 0.5rem 0rem;
+}
+div.cv.headline {
+  justify-content: space-between;
+}
+div.cv.responsibilities {
+  margin-bottom: 2rem;
+}
+
+div.cv.head {
+  text-align: center;
+  height: 10rem;
+  
+}
+h3.cv.candidate {
+  font-size: 1.6rem;
+}
+
+.output { 
+  margin-left: 4rem;
+  background-color: white;
+  filter: drop-shadow(10px 10px 4px #b3b1b1);
+}
+
+.formmanage button {
+  height: 2rem;
+  padding: 0 1rem;
+  background-color: rgb(51, 85, 51);
+  color: whitesmoke;
+  border-radius: 5px;
+}

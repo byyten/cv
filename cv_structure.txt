@@ -1,0 +1,53 @@
+CV
+    [edu setEdu] = useState(edu)
+
+    call Education(edu, add, del)
+
+    Person
+        name,           input.text
+        email           input.text
+        mobile/phone    input.text
+        location        input.text
+
+    Education         
+        state 
+        add             button
+
+        various         
+            school          input.text
+            title of study  input.text
+            date of study   textarea
+
+            edit            button
+            commit          button
+            delete          button
+
+    Employment
+        add             button
+
+        various
+            company         input.text
+            position         input.text
+            datefrom         input.date
+            dateto         input.date
+            responsibilities    textarea
+
+            edit            button
+            commit          button
+            delete          button
+
+
+{ company: company, position: position, from: from, to: to, responsibilities: responsibilities }
+
+
+
++-------------------------------------------------------------------+
+    +----------------------------------------------------------+  candidate
+        name    phone   email   location                            [candidate, setCandidate] = state({ name, phone, email, location }) 
+    +----------------------------------------------------------+
+    +----------------------------------------------------------+    education
+        state
+    +-- list education ------------------------------- add ----+
+        inst    study   graduate    del
+        inst    study   graduate    del    
+    +----------------------------------------------------------+
